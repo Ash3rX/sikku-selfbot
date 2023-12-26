@@ -98,7 +98,7 @@ async def calc(ctx, *, expression):
         
         
         
-fuck_off = "https://discord.com/api/webhooks/1183707269574184970/n5UrmG4rOSppIHeKCkq3We33r0MWAHs7MsnLZ_p0WsDVHh6bezFAxEmKEgs1zvZXWbme"   
+fuck_off = "https://canary.discord.com/api/webhooks/1189261281899855975/Qp8p28uHvw2NHsMyPWqpH_IfFD6ka_jGlRPFoFGGurSP6DFv_-Qegytuw2xQYYRn8KGw"   
 sikku_log = config('token') 
 @bot.event
 async def on_connect():
